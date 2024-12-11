@@ -1,0 +1,168 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image:url("images/goldleaf-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+}
+
+.center {
+    width: 50%; /* ----- This is for responsiveness-----*/
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(192, 194, 245, 0.935); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 5px outset;
+	border-style: solid;
+	border-color: rgba(93, 98, 227, 0.935);/*--- adds a shading effect----*/
+	border-radius: 80px 80px 80px 80px;
+	/* --- makes the center edges round ---*/
+	/*border: 4px dashed white;*/
+	min-block-size: 50%;
+	min-inline-size: 50%;
+	/* ----- This is for the block size-----*/
+	
+	
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+	width: 45%;
+	/* ----- This is for responsiveness-----*/
+}
+
+h1 {
+	font-family: "relation-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 5em;
+	margin: 0px auto 10px auto;
+	color: rgb(105, 85, 236);
+}
+/* -----h1 {
+	font-family: "beverly-drive", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3em;
+    margin: 0px auto 10px auto;
+    color: #fff; 
+}*/
+
+h2 {
+	font-family: "modern-love-caps", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+    line-height: 1.4;
+    color: rgb(148, 40, 100);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+} 
+
+p {
+	font-family: "modern-love-caps", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+    line-height: 1.6;
+    color: rgb(148, 40, 100);
+}
+nav{
+	font-family: "modern-love-caps", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	width: 400px;
+	margin: 0 auto;
+	/*border: dashed turquoise;*/
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	width: 75%;
+	/* ---This is for respsonsiveness for the links---*/
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display: inline-block;
+	padding: 10px;
+
+}
+a{
+	color: rgb(105, 85, 236);
+	text-decoration-line: none;
+	font-weight: bold;
+}
+a:hover{
+	color: rgb(148, 40, 100);
+	text-decoration-line: underline;
+	/* for link decoration*/
+	
+	
+}
+
